@@ -1,0 +1,123 @@
+
+.s1{
+
+  margin:10px, 40px;
+  border: 2px solid rebeccapurple;
+  border-radius: 30px;
+  padding: 0.5em;
+  width:400px;
+  height: 345px;
+  background:blue;
+  position:relative; 
+left: 100px;
+  top:50px;
+  display: block;
+
+  outline: 10px solid #000;
+}
+
+.s2{
+  z-index: 1;
+ right:60px;
+bottom:40px;
+ position:absolute;
+background:rgb(255, 238, 0);
+ width:20%;
+ height: 100px;
+}
+
+.s3{
+top:170px; 
+right: 0px;
+z-index: 1;
+background: green;
+position:absolute;
+z-index: 2;
+width:20%;
+border-radius: 30px;
+}
+
+p {
+  margin:10px, 40px;
+border: 2px solid rebeccapurple;
+padding: 0.5em;
+background: rgb(255, 238, 0);
+}
+
+li {
+border: 2px solid blue;
+padding: .5em;
+background: violet;
+}
+
+
+ul {
+  border: 5px solid rebeccapurple;
+  padding: 1em;
+display: flex;
+list-style: none;
+background: rgb(68, 205, 50);
+margin:10px, 60px;
+}
+
+.block {
+  border: 1px solid black;
+  padding: 2em;
+display: block;
+background: pink;
+}     
+
+#pie{
+  border: 2px solid blue;
+  padding: .5em;
+  display: inline-block;
+  background: rgb(132, 132, 221);
+  text-align:center;
+  margin:15px, 40px;
+}
+  
+#lista2{
+  border: 2px solid rgb(255, 81, 0);
+  padding: .5em;
+  display: inline-block;
+  width:400px;
+  height:200px;
+}
+
+.s4{
+  background:rgb(15, 236, 8);
+  width:200px;
+  height:200px;
+  border:3px solid orange;
+  border-radius: 200px;
+  margin:0 auto;
+  font-size:32px;
+  text-decoration:none;
+  text-align:center;
+  margin:auto;
+  top:50%;
+}
+
+#crece {
+
+display:inline-flex;
+position:absolute;
+right: 800px;
+  font-size:18px;
+  background-color: rgb(238, 26, 220);
+  }
+
+#crece:hover {
+  background-color: gold;
+  font-size:24px;
+  transition :0.5s;
+  color:red;
+  cursor:pointer;
+  font-weight: bold;
+
+}
+
+#btn_volver{
+  font-size:32px;
+  background:red;
+}

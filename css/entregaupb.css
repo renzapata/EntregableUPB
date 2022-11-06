@@ -1,0 +1,296 @@
+.btn {
+  cursor: pointer;
+}
+.ocultar {
+  display: none;
+}
+
+body {
+  background-color: black;
+}
+.caja {
+  display: inline-block;
+  text-align: center; /* centra todos los elementos en la caja */
+  margin: 20px, 2px;
+  border: 2px solid rebeccapurple;
+  padding: 0.5em;
+  display: block;
+  outline: 2px solid #000;
+  position: absolute;
+  height: 30%;
+  width: 30%;
+}
+
+#s1 {
+  background-color: hwb(300 100% 0%);
+  top: 0px;
+  left: 0px;
+
+
+}
+
+#s2 {
+  position: absolute;
+  background-color: rgb(203, 238, 26);
+
+
+  top: 0px;
+
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+#s3 {
+  background-color: rgb(213, 212, 223);
+  top: 0px;
+  right: 0px;
+
+}
+
+#s4 {
+  background-color: rgb(238, 188, 26);
+
+  /* centrar imagen vertical*/
+  display: table-cell;
+  vertical-align: middle;
+
+  left: 0px;
+
+
+  bottom: 0px;
+  top: 0px;
+
+  margin: auto;
+}
+#s5 {
+  background-color: rgb(58, 26, 238);
+
+  bottom: 0px;
+  top: 0px;
+
+  margin: auto;
+  left: 0;
+  right: 0;
+
+
+}
+
+#s6 {
+  background-color: rgb(238, 26, 26);
+  right: 0px;
+
+
+
+  bottom: 0px;
+  top: 0px;
+
+  margin: auto;
+}
+#s7 {
+  background-color: rgb(26, 213, 238);
+
+  bottom: 0px;
+  left: 0px;
+
+}
+
+#s8 {
+  background-color: rgb(238, 26, 160);
+
+  bottom: 0px;
+  margin: auto;
+  left: 0;
+  right: 0;
+
+
+}
+#s9 {
+  background-color: rgb(58, 238, 26);
+
+  bottom: 0px;
+  right: 0px;
+
+}
+
+.lego {
+  margin: 2px, 2px;
+  border: 2px solid rebeccapurple;
+  border-radius: 30px;
+  padding: 0.5em;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  display: block;
+
+  outline: 5px solid #000;
+}
+
+.spizza {
+  z-index: 1;
+  right: 60px;
+  bottom: 4px;
+  position: absolute;
+  background: rgb(255, 238, 0);
+  width: 20%;
+  height: 10px;
+}
+
+.swine {
+  top: 10px;
+  right: 0px;
+  z-index: 1;
+  background: green;
+  position: absolute;
+  z-index: 2;
+  width: 20%;
+  border-radius: 30px;
+}
+
+#crece {
+
+  display:inline-flex;
+  position:absolute;
+  right: 800px;
+    font-size:18px;
+    background-color: rgb(238, 26, 220);
+    }
+  
+  #crece:hover {
+    background-color: gold;
+    font-size:24px;
+    transition :0.5s;
+    color:red;
+    cursor:pointer;
+    font-weight: bold;
+  
+  }
+
+  ul {
+    border: 5px solid rebeccapurple;
+    padding: 1em;
+  display: flex;
+  list-style: none;
+  background: rgb(68, 205, 50);
+  margin:10px, 60px;
+  }
+  li {
+    border: 2px solid blue;
+    padding: .5em;
+    background: violet;
+    }
+
+    .circulo{
+      background:rgb(15, 236, 8);
+      width:200px;
+      height:200px;
+      border:3px solid orange;
+      border-radius: 200px;
+
+      margin:0 auto;
+      font-size:32px;
+      text-decoration:none;
+      text-align:center;
+      margin:auto;
+      top:50%;
+    }
+
+    /*MENU Deplegablle*/
+    ul, ol {
+      list-style:none;  /* quita el estilo de lista con punto */
+    }
+    
+    .nav > li {
+      float:left; /* escribe de izquierda a derecha. ademas pone horizontal la lista */
+    }
+    
+    
+    .nav li a {  /* da estilo a la lista y  al menu */
+      margin-top: 2px;
+        border: 10px solid black;
+      padding:10px;
+      background-color:rgb(243, 235, 235);
+      color:black;
+      text-decoration:none;
+      display:inline-block;
+    }
+  
+    /* 
+    .nav li a:hover {
+      background-color:#434343;
+    }
+  */
+   
+    .nav li ul {  	/* oculta los menu desplegables hasta que se seleccionan de lo contrario los muestra siempre desplegados */
+      display:none;
+        position:absolute; 
+      min-width:14px;
+    }
+  
+    .nav li:hover > ul {  /* hover es el mouse sobre el cuadro y muestra el menu hacia abajo*/
+      display:block;
+    }
+    /*
+    .nav li ul li {
+      position:relative; 
+    }
+    */
+    .nav li ul li ul {
+      right:0px;
+      top:0px;
+    }
+
+    #header { /*  caja menu */
+      margin:auto;
+      width:400px;
+      font-family:Arial, Helvetica, sans-serif;
+      background: yellow;
+    }
+          
+      .nav {    /*  Elementos de caja menu */	
+      margin-top: 5px;
+        border: 2px solid black;
+      padding:5px;
+      background-color:rgb(68, 240, 11);
+      color:black;
+      text-decoration:none;
+      display:inline-block; 
+    }
+
+    /* Seccion 4 Boton lista: */
+
+    .myButton {
+      box-shadow:inset 0px 1px 0px 0px #fbafe3;
+      background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+      background-color:#ff5bb0;
+      border-radius:6px;
+      border:1px solid #ee1eb5;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:15px;
+      font-weight:bold;
+      padding:6px 24px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #c70067;
+    }
+    .myButton:hover {
+      background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+      background-color:#ef027d;
+    }
+    .myButton:active {
+      position:relative;
+      top:1px;
+    }
+
+
+    .btnimg:hover{
+      cursor:pointer;
+    }
+
+    .btnimg:hover{
+      cursor:pointer;
+    }
